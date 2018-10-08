@@ -164,7 +164,6 @@ class Symbol extends PIXI.Sprite {
         if (this._stateMachine.getCurrentState() === State.ENABLED)
             return;
         this._stateMachine.setState(State.ENABLED);
-        // this.visible = true;
         this.visible = true;
     }
 
@@ -173,7 +172,6 @@ class Symbol extends PIXI.Sprite {
             return;
         this._stateMachine.setState(State.DISABLED);
         this.visible = false;
-        // this.texture = null; // Perhaps not the best approach
     }
 
     public startWinAnimation(): void {
