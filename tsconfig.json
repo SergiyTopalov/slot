@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./output",
+//    "outFile": "scene.js",
+    "target": "es5",
+//    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
+  },
+  "files": [
+    "./src/scene.ts"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "slot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "scene.js",
+  "scripts": {
+    "dev": "nodemon",
+    "browser-sync": "browser-sync start --server --files output/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/pixi.js": "^4.5.3"
+  }
+}
